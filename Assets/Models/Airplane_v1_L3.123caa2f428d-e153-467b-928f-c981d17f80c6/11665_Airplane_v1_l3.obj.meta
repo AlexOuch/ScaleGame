@@ -29,7 +29,27 @@ ModelImporter:
     4300002: 11665_Wheel_left
     4300004: 11665_Wheel_right
     4300006: fuselage
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01___Airplane
+    second: {fileID: 2100000, guid: 4309eab1666955e47bf4ac67646bcefe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02___Wheel_left
+    second: {fileID: 2100000, guid: 38e0bd77a65524f4c9dd441e7666ea15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03___Wheel_right
+    second: {fileID: 2100000, guid: 8539ef9cb812ab54495df3e274c3061c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04___Rotor
+    second: {fileID: 2100000, guid: 58db0ea12f5ce75499b1246847082762, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -50,7 +50,32 @@ ModelImporter:
     4300010: boat_hatch
     4300012: boat_ship
     4300014: boat_windows
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boat_blue_plastic
+    second: {fileID: 2100000, guid: 372446e07ede5724b8f293c2f92cbbbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boat_darck_plane
+    second: {fileID: 2100000, guid: 1071c2de8762bd84f80d1cfe9b22fc66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boat_red_plastic
+    second: {fileID: 2100000, guid: ba324d50a3bc0984e84dd178f168f63b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boat_yellow_plastic
+    second: {fileID: 2100000, guid: 5957464eb15335f4a8e8145ba079539c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boat_yellow_plastic_cutting
+    second: {fileID: 2100000, guid: 03b15a99cec40ed469dfaefa1e9acd1d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -132,7 +132,27 @@ ModelImporter:
     4300000: Riolu
     9500000: //RootNode
     13700000: Riolu
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #164'
+    second: {fileID: 2100000, guid: 5d9934c0502ac924ca503ab96eea42fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #165'
+    second: {fileID: 2100000, guid: f2795a79932080f4f8c2e2f4e965c97c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #166'
+    second: {fileID: 2100000, guid: 23993069444881646b7cee44230dc831, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #167'
+    second: {fileID: 2100000, guid: c92896480760be9498f5d83d10692083, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

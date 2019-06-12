@@ -90,7 +90,27 @@ ModelImporter:
     4300000: Pichu
     9500000: //RootNode
     13700000: Pichu
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #146'
+    second: {fileID: 2100000, guid: d85da180abf59bc4e81dbe6cdc09d802, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #147'
+    second: {fileID: 2100000, guid: 33fb03a5a3160824b8480e38e1ef4668, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #148'
+    second: {fileID: 2100000, guid: e6ccfcf3f90c25248b7ab27513d6f525, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #149'
+    second: {fileID: 2100000, guid: fe686c084b512164cb9f3829649cca1d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

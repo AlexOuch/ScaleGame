@@ -11,7 +11,12 @@ ModelImporter:
     2300000: 12930_WoodenChessNightSideA
     3300000: 12930_WoodenChessNightSideA
     4300000: 12930_WoodenChessNightSideA
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12930_WoodenChessNightSideA
+    second: {fileID: 2100000, guid: 0d5b44f186ea3be4aa31f0b377e776b3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

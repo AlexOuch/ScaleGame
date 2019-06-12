@@ -11,7 +11,12 @@ ModelImporter:
     2300000: 11673_camera_v1
     3300000: 11673_camera_v1
     4300000: 11673_camera_v1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11673_camera_v1
+    second: {fileID: 2100000, guid: 4ed5e17e29266ca499b944474a7fdf6a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -36,7 +36,12 @@ ModelImporter:
     4300006: Wheel_front_right
     4300008: Wheel_rear_left
     4300010: Wheel_rear_right
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13509_Toy_Dump_Truck
+    second: {fileID: 2100000, guid: 695a2b57dc762f94790924d82b66571b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

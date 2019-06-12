@@ -147,7 +147,42 @@ ModelImporter:
     4300048: ChamferBox029
     4300050: ChamferBox030
     4300052: ChamferBox031
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__100
+    second: {fileID: 2100000, guid: 6c5492be3a9ede0418b81d3055df875d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__101
+    second: {fileID: 2100000, guid: 048704c89b0b029449611191c6b5c5f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__102
+    second: {fileID: 2100000, guid: 57d3f9bbc4951164db02aef2bbfc4393, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__96
+    second: {fileID: 2100000, guid: 8a26d5bda5d31cc4faa86280aee79927, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__97
+    second: {fileID: 2100000, guid: 96a0a825e59e80241955aa8785c953d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__98
+    second: {fileID: 2100000, guid: 7d9d79ec609e6b6498ecab4bc2d6eb16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__99
+    second: {fileID: 2100000, guid: 1d40bad257dbd844883e960abd186fdd, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

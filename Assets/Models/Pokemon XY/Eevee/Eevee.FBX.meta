@@ -125,7 +125,22 @@ ModelImporter:
     4300000: Eevee
     9500000: //RootNode
     13700000: Eevee
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #12'
+    second: {fileID: 2100000, guid: d9d77e0a471ff6d43bddd8cfa3823a8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #13'
+    second: {fileID: 2100000, guid: 7c9c06446a4fb514a88c816c553ccbc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #14'
+    second: {fileID: 2100000, guid: 791dfcc7f00da344a9981f8be1344fb8, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
