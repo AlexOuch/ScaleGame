@@ -46,7 +46,7 @@ public class Level : MonoBehaviour
 
     public int GetObjectsAmount()
     {
-        return objects.Length + 1;
+        return (objects.Length + 1);
     }
 
 }

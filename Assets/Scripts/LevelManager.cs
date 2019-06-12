@@ -12,9 +12,9 @@ public class LevelManager : MonoBehaviour
     }
 
     //scoring system
-    int totalScore;
-    int score;
-    int buttonPressed;
+    float totalScore;
+    float score;
+    float buttonPressed;
     int objectsAmount;
 
     public Text levelText;
@@ -34,10 +34,10 @@ public class LevelManager : MonoBehaviour
     {
         totalScore = 0;
         levelNumber = 0;
-        for (int i = 0; i < levels.Length; i++)
+        /*for (int i = 0; i < levels.Length; i++)
         {
             levels[i].SetActive(false);
-        }
+        }*/
         levels[levelNumber].SetActive(true); 
     }
 
@@ -54,15 +54,14 @@ public class LevelManager : MonoBehaviour
         AddScore();
         StartCoroutine("LevelComplete");
         levels[levelNumber].SetActive(false);
-        levelNumber++;
         leftPlatform.gameObject.GetComponent<Platform>().ResetWeight();
         rightPlatform.gameObject.GetComponent<Platform>().ResetWeight();
-        levels[levelNumber].SetActive(true);
+        
     }
 
     void AddScore()
     {
-        objectsAmount = totalScore + levels[levelNumber].gameObject.GetComponent<Level>().GetObjectsAmount();
+        objectsAmount = levels[levelNumber].gameObject.GetComponent<Level>().GetObjectsAmount();
         buttonPressed = transform.gameObject.GetComponent<Pickup>().GetButtonPressed();
         score = 200 * (objectsAmount / buttonPressed);
         totalScore = totalScore + score;
@@ -71,6 +70,8 @@ public class LevelManager : MonoBehaviour
     IEnumerator LevelComplete()
     {
         anim.Play("LevelComplete", 0, 0);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(5f);
+        levelNumber++;
+        levels[levelNumber].SetActive(true);
     }
 }

@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class Pickup : MonoBehaviour
 {
-    int buttonPressed = 0;
+    float number = 0;
+    float buttonPressed = 0;
 
     public Button button;
     public Text buttonText;
@@ -82,9 +83,9 @@ public class Pickup : MonoBehaviour
         }
     }
 
-    public int GetButtonPressed()
+    public float GetButtonPressed()
     {
-        int number = buttonPressed;
+        number = buttonPressed;
         buttonPressed = 0;
         return number;
     }
